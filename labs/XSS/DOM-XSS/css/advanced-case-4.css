@@ -1,0 +1,143 @@
+  :root {
+    --neon-red: #ff0040;
+    --neon-orange: #ff6600;
+    --neon-yellow: #ffcc00;
+    --neon-green: #00ff88;
+    --neon-cyan: #00ffff;
+    --neon-blue: #0088ff;
+    --neon-purple: #8800ff;
+    --neon-pink: #ff0088;
+    --dark-bg: #0a0a0f;
+    --panel-bg: rgba(20, 20, 30, 0.8);
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    min-height: 100vh;
+    background: var(--dark-bg);
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    padding-top: 80px;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+
+  .warning-banner {
+    background: linear-gradient(90deg, rgba(255, 0, 64, 0.2), rgba(136, 0, 255, 0.2));
+    border: 2px solid var(--neon-red);
+    border-radius: 16px;
+    padding: 25px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .lab-card {
+    background: var(--panel-bg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 40px;
+  }
+
+  .difficulty-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 25px;
+    background: linear-gradient(135deg, rgba(255, 0, 64, 0.2), rgba(136, 0, 255, 0.2));
+    border: 2px solid var(--neon-red);
+    border-radius: 30px;
+    color: var(--neon-red);
+    font-family: 'Orbitron', monospace;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .lab-title {
+    font-family: 'Orbitron', monospace;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+  }
+
+  .lab-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 25px;
+  }
+
+  .tag {
+    padding: 8px 16px;
+    background: rgba(255, 0, 64, 0.1);
+    border: 1px solid rgba(255, 0, 64, 0.3);
+    border-radius: 20px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    color: var(--neon-red);
+  }
+
+  .config-section {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 25px;
+    margin: 20px 0;
+  }
+
+  .config-input {
+    width: 100%;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'JetBrains Mono', monospace;
+    margin-bottom: 15px;
+  }
+
+  .action-btn {
+    padding: 15px 30px;
+    background: linear-gradient(135deg, var(--neon-red), var(--neon-purple));
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Orbitron', monospace;
+    cursor: pointer;
+  }
+
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-family: 'JetBrains Mono', monospace;
+    margin-bottom: 20px;
+  }
+
+  .hint-card {
+    background: rgba(255, 204, 0, 0.05);
+    border: 1px solid rgba(255, 204, 0, 0.3);
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  code {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--neon-pink);
+  }
