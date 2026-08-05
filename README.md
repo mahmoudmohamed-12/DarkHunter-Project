@@ -1,4 +1,3 @@
-
 # 🛡️ Dark Hunter
 
 > An interactive cybersecurity platform for learning, practicing, and mastering Penetration Testing through vulnerable labs, CTF challenges, reconnaissance resources, and secure learning modules.
@@ -15,9 +14,9 @@ Unlike traditional learning websites, Dark Hunter focuses on practical experienc
 
 ### 📷 Screenshot
 
-```
-docs/images/home.png
-```
+<p align="center">
+  <img src="docs/images/home.png" width="900">
+</p>
 
 ---
 
@@ -49,14 +48,15 @@ Features:
 - Secure Sessions
 - Token Verification
 
-### 📷 Screenshot
+### 📷 Screenshots
 
-```
-docs/images/authentication1.png
-docs/images/authentication2.png
-docs/images/authentication3.png
-docs/images/authentication4.png
-```
+<p align="center">
+  <img src="docs/images/authentication1.png" width="900"><br><br>
+  <img src="docs/images/authentication2.png" width="900"><br><br>
+  <img src="docs/images/authentication3.png" width="900"><br><br>
+  <img src="docs/images/authentication4.png" width="900"><br><br>
+  <img src="docs/images/authentication5.png" width="900">
+</p>
 
 ---
 
@@ -64,25 +64,25 @@ docs/images/authentication4.png
 
 A complete learning center for web vulnerabilities.
 
-Includes:
+Each vulnerability includes:
 
 - Definition
-- Real-world Examples
 - Root Cause
-- Payloads
+- Real-world Examples
 - Exploitation Steps
-- Mitigation
-- References
+- Payloads
+- Mitigation Techniques
+- Security References
 
-### Topics
+### Covered Vulnerabilities
 
-- XSS
+- Cross Site Scripting (XSS)
 - SQL Injection
-- CSRF
-- SSRF
-- IDOR
-- LFI
-- RFI
+- Cross Site Request Forgery (CSRF)
+- Server Side Request Forgery (SSRF)
+- Insecure Direct Object Reference (IDOR)
+- Local File Inclusion (LFI)
+- Remote File Inclusion (RFI)
 - Command Injection
 - File Upload
 - Open Redirect
@@ -90,26 +90,26 @@ Includes:
 - CORS
 - Cache Poisoning
 - HTTP Request Smuggling
-- Business Logic
+- Business Logic Vulnerabilities
 - Race Condition
 
-### 📷 Screenshot
+### 📷 Screenshots
 
-```
-docs/images/learning-bugs1.png
-docs/images/learning-bugs2.png
-```
+<p align="center">
+  <img src="docs/images/learning-bugs1.png" width="900"><br><br>
+  <img src="docs/images/learning-bugs2.png" width="900">
+</p>
 
 ---
 
 ## 💀 Vulnerable Labs
 
-Hands-on vulnerable labs for practicing exploitation.
+Hands-on vulnerable environments for practicing exploitation.
 
-Current Labs
+Current Labs:
 
 - XSS
-- SQLi
+- SQL Injection
 - SSRF
 - LFI
 - Path Traversal
@@ -119,34 +119,35 @@ Current Labs
 - Cache Poisoning
 - Open Redirect
 
-### 📷 Screenshot
+### 📷 Screenshots
 
-```
-docs/images/labs1.png
-docs/images/labs2.png
-docs/images/labs3.png
-```
+<p align="center">
+  <img src="docs/images/labs1.png" width="900"><br><br>
+  <img src="docs/images/labs2.png" width="900"><br><br>
+  <img src="docs/images/labs3.png" width="900">
+</p>
 
 ---
 
 ## 🏴 Capture The Flag (CTF)
 
-Interactive CTF section where users can practice real-world challenges.
+Interactive CTF challenges designed to simulate real-world penetration testing scenarios.
 
-Features
+Features:
 
 - Multiple Difficulty Levels
+- Dynamic Flags
 - Challenge Categories
-- Flags
 - Score Tracking
+- Interactive Challenges
 
-
+---
 
 ## 🌐 Recon Center
 
-Reconnaissance resources including methodologies and useful tools.
+Reconnaissance resources and methodologies.
 
-Includes
+Includes:
 
 - Subdomain Enumeration
 - DNS Enumeration
@@ -158,17 +159,17 @@ Includes
 
 ### 📷 Screenshot
 
-```
-docs/images/recon.png
-```
+<p align="center">
+  <img src="docs/images/recon.png" width="900">
+</p>
 
 ---
 
 ## 🛠 Toolkit
 
-Collection of useful penetration testing tools.
+Collection of useful Penetration Testing tools.
 
-Examples
+Examples:
 
 - Burp Suite
 - Nmap
@@ -181,9 +182,9 @@ Examples
 
 ### 📷 Screenshot
 
-```
-docs/images/toolkit.png
-```
+<p align="center">
+  <img src="docs/images/toolkit.png" width="900">
+</p>
 
 ---
 
@@ -191,7 +192,7 @@ docs/images/toolkit.png
 
 Learning resources for Android & iOS Security.
 
-Includes
+Includes:
 
 - Android Security
 - iOS Security
@@ -199,62 +200,70 @@ Includes
 - Reverse Engineering
 - Frida
 - Objection
+- Mobile API Testing
 
-### 📷 Screenshot
+### 📷 Screenshots
 
-```
-docs/images/mobile1.png
-docs/images/mobile2.png
-docs/images/mobile3.png
-docs/images/mobile4.png
-docs/images/mobile5.png
-```
+<p align="center">
+  <img src="docs/images/mobile1.png" width="900"><br><br>
+  <img src="docs/images/mobile2.png" width="900"><br><br>
+  <img src="docs/images/mobile3.png" width="900"><br><br>
+  <img src="docs/images/mobile4.png" width="900"><br><br>
+  <img src="docs/images/mobile5.png" width="900">
+</p>
 
 ---
 
 ## 👥 Community
 
-A lightweight community for asking questions and sharing cybersecurity knowledge.
+A lightweight community where users can:
+
+- Share knowledge
+- Ask questions
+- Publish posts
+- Like & Comment
+- Discuss cybersecurity topics
 
 ### 📷 Screenshot
 
-```
-docs/images/community.png
-```
+<p align="center">
+  <img src="docs/images/community.png" width="900">
+</p>
 
 ---
 
 ## 👤 User Profile
 
-Each user has their own dashboard.
+Each user has a personal dashboard.
 
-Features
+Features:
 
 - Profile Information
-- Completed Labs
+- Profile Picture
 - Learning Progress
+- Completed Labs
 - CTF Progress
 - Account Settings
 
 ### 📷 Screenshot
 
-```
-docs/images/profile.png
-```
+<p align="center">
+  <img src="docs/images/profile.png" width="900">
+</p>
 
 ---
 
 # 🛡 Security Features
 
+- Secure Authentication
 - Password Hashing
 - Email Verification
 - Session Management
-- Secure Authentication
-- CSRF Protection
 - Prepared Statements
 - Input Validation
 - Output Encoding
-- Token Expiration
+- Token Verification
+- CSRF Protection
 - Role-Based Access Control (RBAC)
 
 ---
@@ -263,7 +272,7 @@ docs/images/profile.png
 
 ```text
 DarkHunter/
-
+│
 ├── api/
 ├── assets/
 ├── Config/
@@ -283,7 +292,7 @@ DarkHunter/
 
 ---
 
-# ⚙ Technologies
+# ⚙ Technologies Used
 
 - PHP
 - MySQL
@@ -302,14 +311,20 @@ DarkHunter/
 - AI Assistant
 - Leaderboard
 - Docker Support
+- REST API
 - Notifications
-- API v2
 - Team Collaboration
+- Dark Mode
+- Multi-language Support
 
 ---
 
 # 📜 License
 
-This project is intended for educational purposes only.
+This project is intended for **educational purposes only**.
 
-Unauthorized testing against systems without permission is illegal.
+The vulnerable labs and challenges are designed to help students and penetration testers practice in a controlled environment.
+
+Do **NOT** use the knowledge or techniques demonstrated in this project against systems you do not own or have explicit authorization to test.
+
+Unauthorized access to computer systems is illegal and unethical.
